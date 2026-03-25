@@ -1,0 +1,26 @@
+.
+📱 Phone Number Location Tracker
+A Python-based tool that extracts information from a phone number, including its service provider and geographic location, and visualizes the results on an interactive map. 
+CodeSandbox
+CodeSandbox
+ +1
+🚀 Features
+Location Lookup: Identifies the country or region associated with a phone number.
+Carrier Info: Retrieves the name of the service provider (e.g., Airtel, Jio, Verizon).
+Geocoding: Converts location descriptions into precise latitude and longitude coordinates.
+Map Visualization: Generates a professional interactive map (.html) with a marker at the identified location. 
+.
+
+📂 Project Structure
+main.py: Your primary script containing the logic.
+myphone.py: A helper file containing the variable number (the phone number you want to track).
+mylocation.html: The interactive map file generated after running the script. 
+YouTube
+YouTube
+ +2
+📖 How to Use
+Prepare your data: In myphone.py, add your target number in E.164 format (e.g., +14155552671).
+Update API Key: Replace the key variable in the script with your own OpenCage API Key.
+
+⚠️ Important Note
+This script provides the approximate location based on the phone number's registered region or country. It cannot track a mobile phone's real-time physical movement or pinpoint an exact street address due to privacy and technical limitations of public libraries.
